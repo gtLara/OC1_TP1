@@ -1,3 +1,14 @@
+# Q3: ordenacao por selecao
+
+# funcao: SELECTION_SORT
+
+# argumentos:
+    # v: x10, tamanho de vetor: x11
+
+# retornos:
+    # nenhum
+
+
 # x10: v, x11: v_len, x5: i, x6: smallest_index
 
 ############################# args
