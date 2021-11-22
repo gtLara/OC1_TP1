@@ -1,3 +1,13 @@
+# Q2: Fatorial
+
+# funcao: FACT
+
+# argumentos
+    # n: x10
+
+# retornos:
+    # fatorial de n: x17
+
 addi, x10, x0, 4 # n = 4
 
 jal x1, FACT # int fact(int n)
@@ -18,6 +28,6 @@ blt x29, x28, LOOP # while(i <= n)
 beq x29, x28, LOOP
 
 add x17, x0, x30 # return(res)
-jalr x0, 0(x1) #
+jalr x0, x1, 0
 
 EXIT:
