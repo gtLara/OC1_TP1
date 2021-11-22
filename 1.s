@@ -8,8 +8,6 @@
 # retornos:
 	# f1, f2 (32 bits mais e menos significativos do resultado)
 
-#TODO: generalizar entradas para PF
-
 addi s1, zero, 0 # P
 addi s2, zero, 5 # V
 addi s3, zero, 1 # I
